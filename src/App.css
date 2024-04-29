@@ -1,0 +1,72 @@
+
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  
+}
+
+.btn button {
+  margin-right: 10px; 
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.color-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+margin-top: 15%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+color: #ffffff;
+}
+
+
+.history-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px; /* Set maximum width */
+  display: flex; /* Add display flex */
+  flex-direction: column; /* Arrange children in a column */
+}
+
+.history-container h2 {
+  color: white;
+}
+
+.history {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.history-item {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
