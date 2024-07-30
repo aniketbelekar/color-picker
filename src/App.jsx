@@ -17,6 +17,7 @@ function App() {
     setColorHistory([...colorHistory, randomColor]);
   };
 
+  
   const generateRGBColor = () => {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
